@@ -11,5 +11,4 @@ require('../css/home.css');
 
 
 require('../node_modules/bootstrap-sass/assets/javascripts/bootstrap');
-require('./home_styles')
-require('./home')
+require('./home');

@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     color: #212121;
 }
 
@@ -7,6 +7,17 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+
+.btn-submit {
+    font-size: large;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active {
+    background-color: #36caf2 !important;
+    color: white !important;
 }
 
 .navbar {
