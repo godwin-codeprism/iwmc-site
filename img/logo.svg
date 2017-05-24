@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="format-detection" content="telephone=no">
-    <title>I want more customers</title>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="package.js"></script>
-</head>
-
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-trans">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-                <a class="navbar-brand remove-padding" href="index.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 577.59 573.78">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 577.59 573.78">
                         <defs>
                             <style>
                                 .main-group {
@@ -222,7 +198,7 @@
                                 }
 
                                 .brandName {
-                                    font-size: 150px;
+                                    font-size: 48px;
                                     fill: #323746;
                                     font-family: Montserrat-Regular, Montserrat;
                                 }
@@ -281,7 +257,7 @@
                                     <polygon class="bar1" points="305.99 133.02 265.35 168.27 265.35 177.78 265.35 179.13 265.35 329.99 346.62 329.99 346.62 179.13 346.62 177.78 346.62 168.27 305.99 133.02"
                                     />
                                     <polygon class="cls-9" points="305.99 133.02 329.33 180 265.35 329.99 346.62 329.99 346.62 168.27 305.99 133.02" />
-                                    <g class="cls-10" transform="translate(0 -70)">
+                                    <g class="cls-10">
                                         <ellipse class="cls-11" cx="308.79" cy="539.09" rx="212.57" ry="34.69" />
                                         <ellipse class="cls-12" cx="308.79" cy="539.09" rx="205.52" ry="33.46" />
                                         <ellipse class="cls-13" cx="308.79" cy="539.09" rx="198.48" ry="32.24" />
@@ -310,154 +286,11 @@
                                         <ellipse class="cls-36" cx="308.79" cy="539.09" rx="36.44" ry="4.01" />
                                         <ellipse class="cls-37" cx="308.79" cy="539.09" rx="29.39" ry="2.78" />
                                     </g>
-                                    <text class="brandName" transform="translate(610 180)">Shopper
-                                        <tspan class="cls-39" x="0" y="180">Media Inc.</tspan>
+                                    <text class="brandName" transform="translate(70.62 480.82)">Shopper Media
+                                        <tspan class="cls-39" x="382.51" y="0">I</tspan>
+                                        <tspan x="397.24" y="0">nc.</tspan>
                                     </text>
                                 </g>
                             </g>
                         </g>
                     </svg>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li class="hidden-xs hidden-sm"><a style="padding-left:5px;padding-right:5px;"><i class="fa ion-minus fa-rotate-90"></i></a></li>
-                    <li>
-                        <a href="#" style="padding: 20px 5px;display:inline-block;">
-                            <i class="icon ion-android-call"></i>
-                            <span> &nbsp;<a class="phone-number" href="tel:+1-416-669-2144">416-669-2144</a>&nbsp;&nbsp;</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid header">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-caption-outer">
-            <div class="div-caption">
-                <img src="./assets/img/caption.png" alt="More Business">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid services-block">
-        <div class="container-fluid">
-            <div class="col-md-12 text-center">
-                <h2 style="margin:0px;">Our Services</h2>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="col-lg-6 col-sm-8">
-                <p>We are Shopper Media Inc based out of Mississauga, Ontario. As you can see our site is simple and to the
-                    point - we feel that is what our customers and all customers want - straight to the point facts and offers.
-                    We have helped establish companies from Zero Dollars in Sales to 6 Figure Sales - all with our systems.</p>
-                <p>Our team has diplomas and degrees in Marketing - this is what we do - we got you to our page and we will
-                    get your customers to your page! If you succeed we succeed - we are willing to take the risks to market
-                    your business so you can grow and service your customers and not worry about new where new business will
-                    come from - we are here for that. Give us one oppurtunity and you will be a customer for life!</p>
-            </div>
-            <div class="col-lg-1 hidden-sm"></div>
-            <div class="col-lg-5 col-sm-4">
-                <img src="./assets/img/services.png" alt="about us" width="100%">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid matter-block">
-        <div class="col-lg-5 col-sm-4">
-            <div class="container-fluid text-left myform-container">
-                <h4 class="text-center" style="font-family:Roboto;">Let's start getting you business today</h4>
-                <hr class="under-heading">
-                <form class="form-horizontal">
-                    <fieldset>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="text" class="form-control" id="inputname" name="Name" placeholder="Your Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="address" class="form-control" name="Home_address" placeholder="Your Business Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="tel" class="form-control" name="Mobile_number" placeholder="Phone Number" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="text" class="form-control" name="Email_address" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <textarea class="form-control" name="Message" placeholder="How Can We Help You Grow?" style="min-height:65px;" required></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <div class="g-recaptcha" data-sitekey="6LfuSiAUAAAAAPT46uubtMQnWrgdvu-nuEsoqYgY"></div>
-                                <p class="error-msg text-danger" id="recaptcha_msg">Please verify before you submit</p>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12 text-right">
-                                <button type="submit" class="btn btn-primary btn-submit btn-block">Submit</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-        <div class="col-lg-7 col-sm-8">
-            <p>You have come to the right place if you are tired of wasting your money on print ads and flyers. There was a
-                time when this was the only way to grow your business but surely times have changed!</p>
-            <p>You are not alone - there are many business owners giving up on this method of advertising - switching to advertsing
-                that actually works and is guranteed- have you ever heard of that before? GURANTEED ADVERTISING RESULTS OR
-                YOUR MONEY BACK! We are confident that our methods will give you a return on your investment or we will pay
-                you your money back - can't beat that. No advertising company has every offered guranted results - becuase
-                they have no trust in their product or service - try asking your current news paper sales rep for a gurantee
-                they will laugh out the door. We will give you a written gurantee.</p>
-
-        </div>
-    </div>
-
-    <div class="container-fluid about-block">
-        <div class="container-fluid">
-            <div class="col-md-12 text-center">
-                <h2 style="margin:0px;">About Us</h2>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="col-lg-6 col-sm-8">
-                <p>We are Shopper Media Inc based out of Mississauga, Ontario. As you can see our site is simple and to the
-                    point - we feel that is what our customers and all customers want - straight to the point facts and offers.
-                    We have helped establish companies from Zero Dollars in Sales to 6 Figure Sales - all with our systems.</p>
-                <p>Our team has diplomas and degrees in Marketing - this is what we do - we got you to our page and we will
-                    get your customers to your page! If you succeed we succeed - we are willing to take the risks to market
-                    your business so you can grow and service your customers and not worry about new where new business will
-                    come from - we are here for that. Give us one oppurtunity and you will be a customer for life!</p>
-            </div>
-            <div class="col-lg-1 hidden-sm"></div>
-            <div class="col-lg-5 col-sm-4">
-                <img src="./assets/img/mission.png" alt="about us" width="100%">
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="container-fuild remove-padding">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
-                <small class="text-center text-default copyrights">Copyright 2017 <a href="./index.html">iwantmorecustomers.com</a>. <br class="hidden-md hidden-lg">All Rights Reserved.</small>
-            </div>
-            <div class="hidden-sm hidden-xs col-lg-3 col-md-4"></div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 social-block">
-                <div class="col-xs-3 col-sm-3 text-center social-block-icon" onclick="window.open('https://www.facebook.com/cursivehomenumbers/','_blank')"><i class="icon ion-social-facebook"></i></div>
-                <div class="col-xs-3 col-sm-3 text-center social-block-icon"><i class="icon ion-social-googleplus"></i></div>
-                <div class="col-xs-3 col-sm-3 text-center social-block-icon"><i class="icon ion-social-twitter"></i></div>
-            </div>
-        </div>
-    </footer>
-</body>
-
-</html>

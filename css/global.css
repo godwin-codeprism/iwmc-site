@@ -38,7 +38,9 @@ body {
     box-shadow: none;
     border-bottom: 1px solid rgba(158, 158, 158, 0.45);
 }
-
+.navbar-trans a{
+    color: #323746 !important;
+}
 .navbar-trans .active a {
     background-color: rgba(244, 244, 244, 0.55) !important;
 }

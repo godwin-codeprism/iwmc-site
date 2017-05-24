@@ -8,20 +8,22 @@
 
 .services-block {
     background-image: url('../img/services-bg.jpg');
-    padding-bottom: 50px;
+    padding: 50px 0px;
 }
-
+.div-caption-outer{
+    position: relative;
+    height: 100%;
+}
 .div-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
 }
-
-.div-caption-outer {
-    height: 700px;
-}
-
 .div-caption img {
     max-height: 500px;
     max-width: 100%;
@@ -37,6 +39,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     border-top: 5px solid #26d1ff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
 .matter-block {
@@ -44,13 +47,16 @@
     min-height: 500px;
     background-size: cover;
     box-shadow: 0px 0px 15px rgba(2, 73, 93, 0.69) inset;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
 .matter-block p {
     color: white;
 }
 
+.about-block{
+    padding: 50px 0px;
+}
 @media (min-width: 768px) {
     .header {
         padding-top: 10%;
