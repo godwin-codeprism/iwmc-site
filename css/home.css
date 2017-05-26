@@ -25,7 +25,7 @@
     align-items: center;
 }
 .div-caption img {
-    max-height: 500px;
+    max-height: 450px;
     max-width: 100%;
     position: relative;
     animation: zoomIn .25s ease;

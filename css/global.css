@@ -38,9 +38,11 @@ body {
     box-shadow: none;
     border-bottom: 1px solid rgba(158, 158, 158, 0.45);
 }
-.navbar-trans a{
+
+.navbar-trans a {
     color: #323746 !important;
 }
+
 .navbar-trans .active a {
     background-color: rgba(244, 244, 244, 0.55) !important;
 }
@@ -85,6 +87,64 @@ body {
 
 .image-model-hidden {
     display: none !important;
+}
+
+.little-slider-outer {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 150px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#littleCarousel,
+#littleCarousel2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.little-slider {
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+
+.little-slider ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.little-slider li {
+    height: 75px;
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 150px;
+    line-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img,
+.little-slider li img {
+    width: auto;
+    max-height: 85%;
+    max-width: 140px;
 }
 
 .image-model {
@@ -206,6 +266,7 @@ footer a {
 
 .error-msg {
     display: none;
+    color: #ed3636 !important;
 }
 
 .form-hide {
@@ -226,6 +287,21 @@ footer a {
 .form-container {
     position: relative;
     z-index: 0;
+}
+
+.form-hide {
+    position: absolute;
+    width: 94%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(245, 245, 245, 0.82);
+    top: 0;
+    left: 15px;
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: zoomIn .25s ease;
 }
 
 .phone-mobile {
